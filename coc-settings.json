@@ -1,0 +1,8 @@
+{
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": false,
+  "diagnostic.checkCurrentLine": true,
+  "python.analysis.useLibraryCodeForTypes": false,
+  "python.pythonPath": "/opt/homebrew/bin/python3"
+}
