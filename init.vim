@@ -36,7 +36,7 @@ endif
 set t_BE=
 
 set nosc noru nosm
-" Don't redraw while executing macros (good performance config)
+" Don't redraw while executng macros (good performance config)
 set lazyredraw
 "set showmatch
 " How many tenths of a second to blink when matching brackets
@@ -72,7 +72,6 @@ set cursorline
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
-
 highlight LineNr cterm=none ctermfg=240 guifg=#2b506e guibg=#000000
 
 augroup BgHighlight
@@ -128,19 +127,11 @@ runtime ./maps.vim
 " ---------------------------------------------------------------------
 
 " true color
-if exists("&termguicolors") && exists("&winblend")
-  syntax enable
-  set termguicolors
-  set winblend=0
-  set wildoptions=pum
-  set pumblend=5
-  set background=dark
-  " Use NeoSolarized
-  let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
-  colorscheme NeoSolarized
-endif
-
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+"let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
 "}}}
 
 " Extras "{{{
@@ -149,5 +140,5 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
-runtime coc-config.vim
+runtime ./coc-config.vim
 filetype plugin on

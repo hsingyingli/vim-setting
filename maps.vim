@@ -60,9 +60,6 @@ nmap <C-w><right> <C-w>>
 nmap <C-w><up> <C-w>+
 nmap <C-w><down> <C-w>-
 
-" Copy one line and hover 
-nmap c y
-nmap cc yy
-
 " Folding 
 nmap ff za
+

@@ -8,27 +8,19 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
-  Plug 'dart-lang/dart-vim-plugin'
-  Plug 'scrooloose/nerdcommenter'
+  Plug 'scrooloose/nerdcommenter' 
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim51' }
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'airblade/vim-gitgutter'
-  Plug 'folke/lsp-colors.nvim'
-  Plug 'L3MON4D3/LuaSnip'
-  Plug 'hrsh7th/cmp-nvim-lsp'
-  Plug 'hrsh7th/cmp-buffer'
-  Plug 'hrsh7th/nvim-cmp'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
-  Plug 'kyazdani42/nvim-web-devicons'
-  Plug 'onsails/lspkind-nvim'
-  Plug 'nvim-lua/popup.nvim'
-  Plug 'nvim-lua/plenary.nvim'
-  Plug 'nvim-telescope/telescope.nvim'
-  Plug 'windwp/nvim-autopairs'
+  Plug 'godlygeek/tabular'
+  Plug 'preservim/vim-markdown'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
+  Plug 'mhartington/oceanic-next'
+  Plug 'ayu-theme/ayu-vim'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
