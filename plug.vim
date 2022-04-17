@@ -20,7 +20,8 @@ if has("nvim")
   Plug 'preservim/vim-markdown'
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
   Plug 'mhartington/oceanic-next'
-  Plug 'ayu-theme/ayu-vim'
+  Plug 'dracula/vim', { 'as': 'dracula' }
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

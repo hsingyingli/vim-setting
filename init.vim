@@ -125,13 +125,9 @@ runtime ./maps.vim
 
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
-
+let g:dracula_italic = 0
+colorscheme dracula
 " true color
-set termguicolors     " enable true colors support
-"let ayucolor="light"  " for light version of theme
-"let ayucolor="mirage" " for mirage version of theme
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
 "}}}
 
 " Extras "{{{
@@ -140,5 +136,7 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
+let g:vim_markdown_folding_disabled = 1
 runtime ./coc-config.vim
+runtime ./multi-cursor.vim
 filetype plugin on

@@ -4,5 +4,9 @@
   "prettier.bracketSpacing": false,
   "diagnostic.checkCurrentLine": true,
   "python.analysis.useLibraryCodeForTypes": false,
-  "python.pythonPath": "/opt/homebrew/bin/python3"
+  "python.pythonPath": "/opt/homebrew/bin/python3",
+  "go.goplsPath": "/Users/aaron/go/bin/gopls",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "prisma"
+  ]
 }
