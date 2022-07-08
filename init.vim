@@ -26,6 +26,7 @@ set expandtab
 "let loaded_matchparen = 1
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
+set termguicolors
 
 " incremental substitution (neovim)
 if has('nvim')
@@ -126,6 +127,7 @@ runtime ./maps.vim
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
 let g:dracula_italic = 0
+let g:dracula_colorterm = 0
 colorscheme dracula
 " true color
 "}}}
@@ -139,4 +141,5 @@ set exrc
 let g:vim_markdown_folding_disabled = 1
 runtime ./coc-config.vim
 runtime ./multi-cursor.vim
+runtime ./colorizer.vim
 filetype plugin on

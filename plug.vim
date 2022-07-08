@@ -21,7 +21,9 @@ if has("nvim")
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
   Plug 'mhartington/oceanic-next'
   Plug 'dracula/vim', { 'as': 'dracula' }
-  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'},
+  Plug 'norcalli/nvim-colorizer.lua',
+  Plug 'Yggdroot/indentLine'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
